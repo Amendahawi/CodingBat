@@ -6,6 +6,9 @@ Given an array of ints, compute recursively if the array contains somewhere a va
 We'll use the convention of considering only the part of the array that begins at the given index. In this way, a recursive call can pass index+1 to move down the array. 
 The initial call will pass in index as 0.
 
+I strongly urge you not to copy as you will not learn by copying. The awnsers that I provide are strictly for learning purposes thus I added comments for 
+you all to understand the purpose of each line.
+
 Written by Abdulrahman Mendahawi.*/
 
 public boolean array220(int[] nums, int index) {
