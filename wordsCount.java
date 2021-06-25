@@ -8,6 +8,9 @@ wordsCount(["a", "bb", "b", "ccc"], 1) → 2
 wordsCount(["a", "bb", "b", "ccc"], 3) → 1
 wordsCount(["a", "bb", "b", "ccc"], 4) → 0
 
+I strongly urge you not to copy as you will not learn by copying. The awnsers that I provide are strictly for learning purposes thus I added comments for 
+you all to understand the purpose of each line.
+
 Written by Abdulrahman Mendahawi.*/
 
 public int wordsCount(String[] words, int len) {
