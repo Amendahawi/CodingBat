@@ -14,9 +14,13 @@ you all to understand the purpose of each line.
 Written by Abdulrahman Mendahawi.*/
 
 public String[] wordsFront(String[] words, int n) {
+  //Create a new array so that we can return it later.
   String[] values = new String[n];
+  //Create a for loop the loops through all the items in the array that is less than integer n.
   for(int i = 0; i < n; i++){
+    //Add the values into array "values" (position and value i).
     values[i] = words[i];
   }
+  //Return the array "values".
   return values;
 }
